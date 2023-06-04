@@ -76,7 +76,7 @@ public class TV {
         }
     }
 
-    public static class Channel {
+    public class Channel {
         private final Program[] programs;
 
         public Channel() {
@@ -91,7 +91,7 @@ public class TV {
             return programs;
         }
 
-        public static class Program {
+        public class Program {
             private final String name;
 
             public Program(String name) {
